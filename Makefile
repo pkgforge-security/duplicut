@@ -4,9 +4,7 @@ SHELL         = /bin/sh
 # debug level
 level         ?= 1
 
-CFLAGS        += -Iinclude -Wall -Wextra \
-                -Wdisabled-optimization -Winline \
-                -Wdouble-promotion -Wunknown-pragmas \
+CFLAGS        += -Iinclude \
                 -Wno-implicit-fallthrough \
                 -Wno-error=implicit-function-declaration \
                 -ffast-math
