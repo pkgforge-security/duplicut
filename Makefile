@@ -9,7 +9,7 @@ CFLAGS        += -Iinclude -Wall -Wextra \
                 -Wdouble-promotion -Wunknown-pragmas \
                 -Wno-implicit-fallthrough \
                 -Wno-error=implicit-function-declaration \
-                -mtune=native -ffast-math
+                -ffast-math
 LDFLAGS       += -lm -pthread
 RELEASEFLAGS  += -O2 -D NDEBUG
 DEBUGFLAGS    += -O0 -D DEBUG=$(level) -std=gnu99 -g3
